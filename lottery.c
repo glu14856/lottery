@@ -23,8 +23,15 @@ int main(int argc, char** argv)
     }
 
     int result = calculate_result(white_balls, power_ball);
-
-    printf("%d percent chance of winning\n", result);
-
+	
+	for (int i = 0; i < 5; i++){
+		if ((white_balls[i]<1) || (white_balls[i])>59){
+			return -1;
+		}
+	}
+		if ((power_ball<1) || (power_ball>39)){
+			return -1;
+		}
+	printf("%d percent chance of winning\n", result);
     return 0;
 }
