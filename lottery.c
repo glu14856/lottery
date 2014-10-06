@@ -23,6 +23,13 @@ int main(int argc, char** argv)
     }
 
     int result = calculate_result(white_balls, power_ball);
+
+	if (7 == power_ball)
+	{
+		result = result * 2;
+	}
+
+
 	
 	for (int i = 0; i < 5; i++){
 		if ((white_balls[i]<1) || (white_balls[i])>59){
