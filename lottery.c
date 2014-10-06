@@ -14,12 +14,12 @@ int main(int argc, char** argv)
         return -1;
     }
 
-    int power_ball = atoi(argv[1]);
+    int power_ball = atoi(argv[6]);
 
     int white_balls[5];
     for (int i=0; i<5; i++)
     {
-        white_balls[i] = atoi(argv[2+i]);
+        white_balls[i] = atoi(argv[1+i]);
     }
 
     int result = calculate_result(white_balls, power_ball);
