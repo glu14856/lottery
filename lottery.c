@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 
 	if (7 == power_ball)
 	{
-		result = result * 2;
+		result=result*2;
 	}
 
 
