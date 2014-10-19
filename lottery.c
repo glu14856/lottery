@@ -32,6 +32,12 @@ int main(int argc, char** argv)
     }
 
     int result = calculate_result(white_balls, power_ball);
+	
+	if(result<0)
+	{
+		fprintf(stderr, "Invalid arguments\n");
+		return -1;
+	}
 
 	if (7 == power_ball)
 	{
