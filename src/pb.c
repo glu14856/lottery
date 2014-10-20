@@ -21,6 +21,16 @@ int calculate_result(int white_balls[5], int power_ball)
 
 int main(int argc, char** argv)
 {
+
+	//Kommentar weil die Änderung zu lang ist
+
+	for (int i = 1; i < argc; i++)
+	{
+		const char* arg = argv[i];
+
+
+	}
+
     if (argc != 7)
     {
         fprintf(stderr, "Usage: %s power_ball (5 white balls)\n", argv[0]);
