@@ -24,6 +24,10 @@ int main(int argc, char** argv)
 
 	//Kommentar weil die Änderung zu lang ist
 
+	int favourite = 0; //this should be a tool
+
+	//more comments
+
 	for (int i = 1; i < argc; i++)
 	{
 		const char* arg = argv[i];
@@ -65,6 +69,8 @@ int main(int argc, char** argv)
 		result=result*2;
 	}
 
+
+	
 
 	
 	for (int i = 0; i < 5; i++){
