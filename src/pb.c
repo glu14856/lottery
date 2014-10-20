@@ -16,6 +16,7 @@ int calculate_result(int white_balls[5], int power_ball)
     {
 		return -1;
 	}
+	//lottery ball numbers are always shown sorted
 	return 0;//123
 }
 
