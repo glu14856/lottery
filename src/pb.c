@@ -28,6 +28,8 @@ int main(int argc, char** argv)
 
 	//more comments
 
+	//MORE COMMENTS
+
 	for (int i = 1; i < argc; i++)
 	{
 		const char* arg = argv[i];
